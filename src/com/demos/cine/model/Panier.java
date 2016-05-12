@@ -32,7 +32,7 @@ public class Panier {
 	public String toString() {
 		String description="";
 		for(LignePanier lp:contenu){
-			description+=lp.getArticle().getReference()+""+lp.getQteCommande()+"\n";
+			description+=lp.getArticle().getReference()+"  quantité commandée = "+lp.getQteCommande()+"\n";
 		}
 		
 		

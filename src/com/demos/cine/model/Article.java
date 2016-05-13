@@ -2,6 +2,8 @@ package com.demos.cine.model;
 
 public class Article {
 	
+	// article 
+	
 	private double prixHT;
 	private String reference;
 	private String designation;

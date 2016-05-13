@@ -6,7 +6,9 @@ public class Article {
 	private String reference;
 	private String designation;
 	private int qtestock;
+	private String type;
 	
+
 	public Article(double prixHT, String reference, String designation, int qtestock) {
 		super();
 		this.prixHT = prixHT;
@@ -29,6 +31,14 @@ public class Article {
 	}
 	public int getQtestock() {
 		return qtestock;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
 	}
 	
 	public void incrementStock(int qte) {		
